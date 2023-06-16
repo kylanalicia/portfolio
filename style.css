@@ -1,49 +1,55 @@
 body{
-    background-color:blue;
-    color: burlywood;
+    background-color:white;
+    color: black;
     margin:0%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    line-height: 2.0;
 }
 
 /*Introduction*/
-#intro{
-    text-align: center;
-    padding: 15px;
-    border: solid black thin;
-    font-size: medium;
+#home{
     font-style: italic;
-    width: auto;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-variant-caps: all-petite-caps;
 }
 
-/*My services*/
-.services{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height:auto;
-    /*border:solid red thick;*/
-    overflow: hidden;
+/*My Services*/
+#services{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    image-rendering: optimizeQuality;
+    font-size: medium;
+    
+    
 }
 
 /*About me*/
-h2 {
-    position: relative;
-    top:-38px;
-    left: -46px;
-    z-index: 200px;
-    letter-spacing: normal;
-    word-spacing: normal;
+#about{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: white;
 }
 
 /*My work*/
 #work{
-    float: right;
-    clear: both;
-    margin: 7%;
-    max-width: fit-content;
-    min-height: auto;
-    box-shadow: inset 9px 9px #f0f0f0;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: white;
+    
+
 }
 
 
