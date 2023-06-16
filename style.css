@@ -1,0 +1,49 @@
+body{
+    background-color:blue;
+    color: burlywood;
+    margin:0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+/*Introduction*/
+#intro{
+    text-align: center;
+    padding: 15px;
+    border: solid black thin;
+    font-size: medium;
+    font-style: italic;
+    width: auto;
+}
+
+/*My services*/
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:auto;
+    /*border:solid red thick;*/
+    overflow: hidden;
+}
+
+/*About me*/
+h2 {
+    position: relative;
+    top:-38px;
+    left: -46px;
+    z-index: 200px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+/*My work*/
+#work{
+    float: right;
+    clear: both;
+    margin: 7%;
+    max-width: fit-content;
+    min-height: auto;
+    box-shadow: inset 9px 9px #f0f0f0;
+}
+
+
