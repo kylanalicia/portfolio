@@ -26,7 +26,6 @@ body{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
-    image-rendering: optimizeQuality;
     font-size: medium;
     
     
@@ -51,5 +50,17 @@ body{
     
 
 }
+
+/*My goals*/
+#goals{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: white;
+
+
+}
+
 
 
